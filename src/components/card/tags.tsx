@@ -6,7 +6,7 @@ export const TripCard = styled.div`
   justify-content: space-around;
   background-color: #f9f9fc;
   margin: 10px;
-  padding: 10px;
+  padding: 9px;
   border-radius: 10px;
   box-shadow: rgb(0 0 0 / 8%) 0px 2pt 8pt, rgb(0 0 0 / 8%) 0px 2pt 16pt;
   width: 50%;
