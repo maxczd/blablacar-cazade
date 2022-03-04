@@ -26,13 +26,6 @@ The application is built with ReactJS librairy in Typescript. It communicates wi
 npm install
 ```
 
-or
-
-```bash
-# install dependencies
-yarn install
-```
-
 ### Run
 
 ```bash
@@ -47,13 +40,6 @@ or
 yarn start
 ```
 
-### Lint
-
-```bash
-# run eslint
-npm run lint
-```
-
 ### Unit tests
 
 ```bash
@@ -61,14 +47,7 @@ npm run lint
 npm run test
 ```
 
-or
-
-```bash
-# run all unit tests
-yarn run test
-```
-
 ```bash
 # run unit tests coverage
-yarn test -- --coverage
+npm run test:coverage
 ```
