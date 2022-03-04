@@ -10,6 +10,6 @@ describe('Trips page', () => {
 describe('Trips title', () => {
   test('Should be rendered', async () => {
     render(<Trips />)
-    expect(screen.getByText('Trips 🚗')).toBeTruthy()
+    expect(screen.getByText('Trips of the day 🚗')).toBeTruthy()
   })
 })

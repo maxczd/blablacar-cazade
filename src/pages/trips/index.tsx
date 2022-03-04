@@ -51,7 +51,7 @@ const Trips = () => {
   }, [])
   return (
     <TripsContainer>
-      <h1>Trips 🚗</h1>
+      <h1>Trips of the day 🚗</h1>
       {trips.map((trip, index) => {
         return (
           <Card
