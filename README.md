@@ -10,7 +10,7 @@ The view is set to display 5 trips. If more are returned by the API, a button ap
 
 <a href="https://maxczd.github.io/blablacar-cazade/">
   <p align="center">
-    <img src="preview.png" width="550"/>
+    <img src="public/preview.png" width="550"/>
   </p>
  </a>
 ## Architecture
