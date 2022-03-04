@@ -6,6 +6,13 @@ This web application has been built in a context of a technical test interview f
 
 You can access the application with this URL: https://maxczd.github.io/blablacar-cazade/
 
+The view is set to display 5 trips. If more are returned by the API, a button appears at the bottom of the view. Clicking on it will display maximum 5 more trips.
+
+<a href="https://maxczd.github.io/blablacar-cazade/">
+  <p align="center">
+    <img src="preview.png" width="550"/>
+  </p>
+ </a>
 ## Architecture
 
 The application is built with ReactJS librairy in Typescript. It communicates with a Blablacar API to fetch data.
