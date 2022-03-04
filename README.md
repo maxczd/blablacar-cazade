@@ -4,10 +4,8 @@ Blablacar technical test is a small one page web application that renders a sear
 
 This web application has been built in a context of a technical test interview for Blablacar.
 
-  <p align="center">
-    <img src="/assets/bbc.png" width="50"/>
-  </p>
- 
+You can access the application with this URL: https://maxczd.github.io/blablacar-cazade/
+
 ## Architecture
 
 The application is built with ReactJS librairy in Typescript. It communicates with a Blablacar API to fetch data.
@@ -73,28 +71,4 @@ yarn run test
 ```bash
 # run unit tests coverage
 yarn test -- --coverage
-```
-
-### File structure
-
-```
-src
-├── main: the main process is the mother of all process. It boots internal and renderer process and starts the window.
-├── root: basis routing file.
-├── version: latest branch version.
-├── components: gathers all front components needed for the app.
-├── graphql
-├── images: gathers all images needed for the app.
-├── locales: gathers all specific label files.
-├── modules: gathers the 3 blocks of views: admin, product & admin
-├── resources: gathers all kind of resources (api calls, state management, types, graphQL queries...)
-├── sercices: gathers api & autenticator services.
-├── styles: gather main .scss file and colors binding files.
-test
-├── e2e : gathers all integration tests files.
-├── unit: gathers all unit tests files.
-themes: gathers all theme files.
-favicons: gathers all possible favicons.
-portal_ingest: gathers all data files needed to run the Control Tower with data.
-configs: gathers all json configuration files for every clients & partners.
 ```
