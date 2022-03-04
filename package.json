@@ -41,6 +41,8 @@
     ]
   },
   "devDependencies": {
-    "prettier": "^2.5.1"
+    "@types/styled-components": "^5.1.24",
+    "prettier": "^2.5.1",
+    "styled-components": "^5.3.3"
   }
 }
